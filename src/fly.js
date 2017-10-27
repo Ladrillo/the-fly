@@ -25,7 +25,7 @@ const Styled = styled.svg`
   #blood {
     opacity: 0;
     transform: scale(0);
-    transform-origin: 50% 50%;
+    transform-origin: inherit;
 
     &.squashed {
       animation: ${kf} 0.15s forwards ease-in-out;
@@ -39,7 +39,7 @@ const Styled = styled.svg`
   #squashed {
     opacity: 0;
     transform: scale(1);
-    transform-origin: 50% 50%;
+    transform-origin: inherit;
 
     &.squashed {
       animation: ${kf2} 0.15s forwards ease-in-out;
