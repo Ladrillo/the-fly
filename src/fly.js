@@ -19,6 +19,9 @@ const kf2 = keyframes`
 `
 
 const Styled = styled.svg`
+  transform-origin: 50% 50%;
+  transform: rotate(${Math.floor(Math.random() * 360)}deg);
+
   #blood {
     opacity: 0;
     transform: scale(0);
