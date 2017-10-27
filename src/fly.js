@@ -19,6 +19,7 @@ const kf2 = keyframes`
 `
 
 const Styled = styled.svg`
+  cursor: pointer;
   transform-origin: 50% 50%;
   transform: rotate(${Math.floor(Math.random() * 360)}deg);
 
