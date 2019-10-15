@@ -5,6 +5,7 @@ import Fly from './fly';
 
 class App extends Component {
   render() {
+    console.log('silly console.log');
     return (
       <div className="App">
         <Fly />
